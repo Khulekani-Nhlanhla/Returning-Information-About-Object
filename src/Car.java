@@ -80,6 +80,6 @@ public class Car {
         this.quantity += amount;
     }
     public void sell(int sold){
-        this.quantity += sold;
+        this.quantity -= sold;
     }
 }
